@@ -67,3 +67,132 @@ header nav a {
     width: 189px;
     height: 252px;
 }
+
+/* Projects Styles */
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 40px;
+}
+
+.projects h2 {
+    color: var(--primary);
+    font-size: 40px;
+    border: solid;
+    padding: 10px 0 10px 20px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: 5px;
+    border-color: var(--primary);
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+}
+
+.run-buddy {
+    border-style: solid;
+    border-width: 4px;
+    border-color: var(--primary);
+}
+
+.run-buddy a {
+    text-decoration: none;
+}
+
+.run-buddy img {
+    width: 480px;
+    height: 200px;
+    display: block;
+}
+
+.run-buddy h3 {
+    background-color:var(--primary);
+    color: var(--tertiary);
+    text-decoration: none;
+    margin: 0;
+    width: 100px;
+}
+
+.css, .javascript {
+    border-style: solid;
+    border-width: 4px;
+    border-color: var(--primary);
+}
+
+.css a, .javascript a {
+    text-decoration: none;
+}
+
+.css img, .javascript img {
+    width: 300px;
+    height: 200px;
+    display: block;
+}
+
+.css h3, .javascript h3 {
+    background-color:var(--primary);
+    color: var(--tertiary);
+    text-decoration: none;
+    margin: 0;
+    width: 100px;
+}
+
+/* Resume */
+
+.resume {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.resume h2 {
+    color: var(--primary);
+    font-size: 40px;
+    border: solid;
+    padding-right: 20px;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-width: 5px;
+    border-color: var(--primary);    
+}
+
+.resume p {
+    color: var(--quaternary);
+    font-size: 18px;
+    padding: 0 20px 0 20px;
+}
+
+/* Contact Me Styles */
+
+.contact-me {
+    background-color: var(--primary);
+}
+
+.contact-me h2 {
+    text-align: center;
+    font-size: 40px;
+    color: var(--tertiary);
+    border: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 2px;
+}
+
+.contact-me address {
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--tertiary);
+}
+
+.contact-me address a {
+    text-decoration: none;
+    color: var(--tertiary);
+}
