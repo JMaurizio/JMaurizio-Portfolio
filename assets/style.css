@@ -204,17 +204,55 @@ header nav a {
     
 }
 
-@media screen and (max-width: 1020px) {
-    header h1 {
-        padding: 0 100px 0 0;
+@media screen and (max-width: 1100px) {
+    #run-buddy {
+        width: 760px;
+    }
+
+    #css {
+        width: 350px;
+    }
+
+    #javascript {
+        width: 350px;
     }
     
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1025px) {
+    header h1 {
+        padding: 0 100px 0 0;
+    }
+
+    #run-buddy {
+        width: 660px;
+    }
+
+    #css {
+        width: 300px;
+    }
+    
+    #javascript {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 925px) {
     header h1 {
         padding: 0;
-    }    
+    }
+    
+    #run-buddy {
+        width: 460px;
+    }
+
+    #css {
+        width: 200px;
+    }
+
+    #javascript {
+        width: 200px;
+    }
     
 }
 
@@ -235,7 +273,35 @@ header nav a {
     .about-me img {
         margin: 20px auto 20px auto;
     }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    #projects-title {
+        margin: 10px 0 10px 0;
+        text-align: center;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
     
+    #run-buddy {
+        width: 300px;
+        margin: 20px;
+    }
+
+    #css {
+        width: 300px;
+        margin: 20px;
+    }
+
+    #javascript {
+        width: 300px;
+        margin: 20px;
+    }
 }
 
 @media screen and (max-width: 575px) {
