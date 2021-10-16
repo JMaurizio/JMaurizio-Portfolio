@@ -183,7 +183,7 @@ header nav a {
     border-width: 2px;
 }
 
-#info {
+#info address {
     display: flex;
     justify-content: space-evenly;
     color: var(--tertiary);
@@ -253,6 +253,10 @@ header nav a {
     #javascript {
         width: 200px;
     }
+
+    #info address a {
+        margin: 0 20px 0 20px;
+    }
     
 }
 
@@ -289,18 +293,36 @@ header nav a {
     }
     
     #run-buddy {
-        width: 300px;
+        width: 400px;
         margin: 20px;
     }
 
     #css {
-        width: 300px;
+        width: 400px;
         margin: 20px;
     }
 
     #javascript {
-        width: 300px;
+        width: 400px;
         margin: 20px;
+    }
+
+    .resume {
+        flex-direction: column;
+    }
+
+    .resume div {
+        text-align: center;
+        margin: 10px 0 10px 0;
+    }
+
+    #info address {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #info address a {
+        margin: 5px 0 5px 0;
     }
 }
 
@@ -309,5 +331,40 @@ header nav a {
         flex-direction: column;
     }
 
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}
+
+@media screen and (max-width: 430px) {   
+    #run-buddy {
+        width: 300px;
+    }
+
+    #css {
+        width: 300px;
+    }
+
+    #javascript {
+        width: 300px;
+    }
+    
+}
+
+@media screen and (max-width: 376px) {
+    #run-buddy {
+        width: 200px;
+    }
+
+    #css {
+        width: 200px;
+    }
+
+    #javascript {
+        width: 200px;
+    }
     
 }
