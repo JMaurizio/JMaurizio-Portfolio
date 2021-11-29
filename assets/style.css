@@ -113,7 +113,7 @@ header nav a {
     padding: 0;
     background-color: var(--primary);
     color: var(--tertiary);
-    width: 100px;
+    width: 120px;
 }
 
 #css {
@@ -129,7 +129,7 @@ header nav a {
 }
 
 #javascript {
-    background-image: url(./images/javascript\ logo.png);
+    background-image: url(./images/programmers-dashboard.png);
     background-size: cover;
     background-position: center;
     width: 400px;
